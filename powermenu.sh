@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya
-## Mail    : adi1090x@gmail.com
-## Github  : @adi1090x
-## Twitter : @adi1090x
-
 rofi_command="rofi -theme ~/rofi-nord/.rasi/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')

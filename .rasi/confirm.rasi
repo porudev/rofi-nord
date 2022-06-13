@@ -1,5 +1,3 @@
-/* Confirm Dialog */
-
 @import "colors.rasi"
 
 * {
