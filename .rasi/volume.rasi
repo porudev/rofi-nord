@@ -88,7 +88,7 @@ element {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"feather 32";
+	font:							"Source Code Pro Semibold 32";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
