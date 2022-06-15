@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya
-## Mail    : adi1090x@gmail.com
-## Github  : @adi1090x
-## Twitter : @adi1090x
-
-rofi_command="rofi -theme /home/porudev/rofi/1080p/applets/menu/configs/square/time.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/time.rasi"
 
 ## Get time and date
 TIME="$(date +"%I:%M %p")"

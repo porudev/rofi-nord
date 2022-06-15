@@ -1,11 +1,3 @@
-/*
- *
- * Author  : Aditya Shakya
- * Mail    : adi1090x@gmail.com
- * Github  : @adi1090x
- * Twitter : @adi1090x
- *
- */
 
 configuration {
     show-icons:                     false;
@@ -14,7 +6,7 @@ configuration {
 	sidebar-mode: 					false;
 }
 
-@import "../../../styles/colors.rasi"
+@import "colors.rasi"
 
 * {
     background-color:               @background;

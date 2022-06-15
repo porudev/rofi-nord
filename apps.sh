@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya
-## Mail    : adi1090x@gmail.com
-## Github  : @adi1090x
-## Twitter : @adi1090x
 
-rofi_command="rofi -theme /home/porudev/rofi/1080p/applets/menu/configs/square/apps.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/apps.rasi"
 
 # Links
 terminal=""

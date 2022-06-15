@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya
-## Mail    : adi1090x@gmail.com
-## Github  : @adi1090x
-## Twitter : @adi1090x
-
-rofi_command="rofi -theme /home/porudev/rofi/1080p/applets/menu/configs/square/volume.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/volume.rasi"
 
 ## Get Volume
 #VOLUME=$(amixer get Master | tail -n 1 | awk -F ' ' '{print $5}' | tr -d '[]%')

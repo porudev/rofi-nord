@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 rofi_command="rofi -theme ~/rofi-nord/.rasi/spotify.rasi"
 

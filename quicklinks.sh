@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 
-## Author  : Aditya Shakya
-## Mail    : adi1090x@gmail.com
-## Github  : @adi1090x
-## Twitter : @adi1090x
-
-rofi_command="rofi -theme /home/porudev/rofi/1080p/applets/menu/configs/square/quicklinks.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/quicklinks.rasi"
 
 # Error msg
 msg() {
-	rofi -theme "$HOME/.config/rofi/applets/styles/message.rasi" -e "$1"
+	rofi -theme "~/rofi-nord/.rasi/message.rasi" -e "$1"
 }
 
 # Browser
