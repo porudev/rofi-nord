@@ -1,2 +1,2 @@
 # rofi-nord
-A collection of nord themed rofi menu
+A collection of nord themed clean rofi theme.
