@@ -20,7 +20,7 @@ confirm_exit() {
 		-i\
 		-no-fixed-num-lines\
 		-p "Are You Sure? : "\
-		-theme /home/porudev/rofi/1080p/applets/styles/confirm.rasi
+		-theme ~/rofi-nord/.rasi/confirm.rasi
 }
 
 # Message
