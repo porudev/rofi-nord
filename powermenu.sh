@@ -3,8 +3,8 @@
 rofi_command="rofi -theme ~/rofi-nord/.rasi/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
-cpu=$($HOME/.config/rofi/bin/usedcpu)
-memory=$($HOME/.config/rofi/bin/usedram)
+cpu=$($HOME/rofi-nord/bin/usedcpu)
+memory=$($HOME/rofi-nord/bin/usedram)
 
 # Options
 shutdown=""
