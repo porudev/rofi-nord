@@ -33,7 +33,7 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							" Music ";
+	str: 							" Spotify ";
 	background-color: 				@accent;
 	text-color: 					@background;
     padding:                        14px 10px 0px 10px;
