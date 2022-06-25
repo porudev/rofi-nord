@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ~/rofi-nord/.rasi/battery.rasi"
+rofi_command="rofi -theme ./.rasi/battery.rasi"
 
 ## Get data
 BATTERY="$(acpi | awk -F ' ' '{print $4}' | tr -d \%,)"

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-rofi_command="rofi -theme ~/rofi-nord/.rasi/apps.rasi"
+rofi_command="rofi -theme ./.rasi/apps.rasi"
 
 # Links
 terminal=""

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ~/rofi-nord/.rasi/spotify.rasi"
+rofi_command="rofi -theme ./.rasi/spotify.rasi"
 
 stop=""
 next=""

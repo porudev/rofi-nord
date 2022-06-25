@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ~/rofi-nord/.rasi/quicklinks.rasi"
+rofi_command="rofi -theme ./.rasi/quicklinks.rasi"
 
 # Error msg
 msg() {
-	rofi -theme "~/rofi-nord/.rasi/message.rasi" -e "$1"
+	rofi -theme "./.rasi/message.rasi" -e "$1"
 }
 
 # Browser

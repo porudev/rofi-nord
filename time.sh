@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ~/rofi-nord/.rasi/time.rasi"
+rofi_command="rofi -theme ./.rasi/time.rasi"
 
 ## Get time and date
 TIME="$(date +"%I:%M %p")"
@@ -13,4 +13,4 @@ YEAR="$(date +"%Y")"
 options="$DAY\n$MONTH\n$YEAR"
 
 ## Main
-chosen="$(echo -e "$options" | $rofi_command -p "  at $TIME on $DN in $MN" -dmenu -selected-row 1)"
+chosen="$(echo -e "$options" | $rofi_command -p "  $TIME on $DN in $MN" -dmenu -selected-row 1)"
