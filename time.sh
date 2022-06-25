@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ./.rasi/time.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/time.rasi"
 
 ## Get time and date
 TIME="$(date +"%I:%M %p")"

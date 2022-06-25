@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme ./.rasi/powermenu.rasi"
+rofi_command="rofi -theme ~/rofi-nord/.rasi/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
-cpu=$(./bin/usedcpu)
-memory=$(./bin/usedram)
+cpu=$($HOME/rofi-nord/bin/usedcpu)
+memory=$($HOME/rofi-nord/bin/usedram)
 
 # Options
 shutdown=""
@@ -20,12 +20,12 @@ confirm_exit() {
 		-i\
 		-no-fixed-num-lines\
 		-p "Are You Sure? : "\
-		-theme ./.rasi/confirm.rasi
+		-theme ~/rofi-nord/.rasi/confirm.rasi
 }
 
 # Message
 msg() {
-	rofi -theme "./.rasi/message.rasi" -e "Available Options  -  yes / no"
+	rofi -theme "~/rofi-nord/.rasi/message.rasi" -e "Available Options  -  yes / no"
 }
 
 # Variable passed to rofi

@@ -45,5 +45,5 @@ def get_weather() -> str:
 
 if __name__ == "__main__":
     weather = get_weather()
-    r = Rofi(rofi_args=['-theme', './.rasi/weather.rasi'])
+    r = Rofi(rofi_args=['-theme', '~/rofi-nord/.rasi/weather.rasi'])
     r.select(f'{weather}', ['option 1', 'option 2', 'option 3'], rofi_args=['-i'])
