@@ -12,7 +12,6 @@ reboot=""
 lock=""
 suspend=""
 logout=""
-monitoring=""
 
 # Confirmation
 confirm_exit() {
@@ -29,7 +28,7 @@ msg() {
 }
 
 # Variable passed to rofi
-options="$shutdown\n$reboot\n$lock\n$monitoring\n$suspend\n$logout"
+options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
 
 chosen="$(echo -e "$options" | $rofi_command -p "  $uptime |  $cpu |  $memory " -dmenu -selected-row 2)"
 case $chosen in
@@ -59,9 +58,6 @@ case $chosen in
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi
-        ;;
-	$monitoring)
-		system-monitoring-center
         ;;
     $suspend)
 		ans=$(confirm_exit &)
